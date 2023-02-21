@@ -1,0 +1,29 @@
+:host {
+    display: block;
+
+    padding: calc(var(--subline) * 2);
+    border: 2px solid transparent;
+    border-radius: 15px;
+
+    cursor: pointer;
+    transition: border-color .4s ease-in-out;
+
+    > h3 {
+        margin-bottom: var(--subline);
+    }
+
+    > * {
+        user-select: none;
+        pointer-events: none;
+    }
+
+    &.active {
+        border-color: var(--color-A3-tint-a);
+    }
+
+    @media (pointer: fine) {
+        &:hover{
+            border-color: var(--color-B0);
+        }
+    }
+}

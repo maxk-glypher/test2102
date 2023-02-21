@@ -1,0 +1,108 @@
+/*
+	(c) The Glyph Studio, 2023
+*/
+html {
+    @import url('https://fonts.googleapis.com/css?family=Roboto:400&display=swap');
+    @import './--scss.scss';
+    /* colors */
+    --color-A0: rgba(28, 27, 27, 1);
+    --color-A0-1: rgba(18, 17, 17, 1);
+    --color-A0-2: rgba(12, 12, 12, 1);
+    --color-A1: rgba(98, 98, 98, 1);
+    --color-A2: rgba(132, 132, 132, 1);
+    --color-A3: rgba(173, 173, 173, 1);
+    --color-A1-tint-a: rgba(28, 27, 27, 0.4);
+    --color-A2-tint-a: rgba(28, 27, 27, 0.3);
+    --color-A3-tint-a: rgba(28, 27, 27, 0.25);
+
+    --color-B0: hsla(209, 100%, 50%, 1);
+
+    /* primary breakpoint - $break-0-start(0)px */
+    @media screen and (max-width: $break-0-start) {
+        /* grid */
+        --side-margin: 40px;
+        --baseline: 24px;
+        --subline: 6px;
+        --gutter: 24px;
+        --column1: 78px;
+        --column2: 180px;
+        --column3: 282px;
+        --column4: 384px;
+        --column5: 486px;
+        --column6: 588px;
+        --column7: 690px;
+        --column8: 792px;
+        --column9: 894px;
+        --column10: 996px;
+        --column11: 1098px;
+        --column12: 1200px;
+
+        /* fonts */
+        --font-size-1: 14px;
+        --font-size-2: 12px;
+        --font-size-3: 8px;
+        --font-size0: 16px;
+        --font-size1: 19px;
+        --font-size2: 21px;
+        --font-size3: 26px;
+        --font-size4: 35px;
+        --font-size5: 51px;
+        --font-size6: 86px;
+        --font-size7: 107px;
+        --font-size8: 116px;
+        --font-size9: 120px;
+        --font-family-f1: 'Roboto';
+
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    h1 {
+        font-family: var(--font-family-f1);
+        font-style: normal;
+        font-weight: 400;
+        font-size: var(--font-size5);
+        line-height: 1.02em;
+    }
+    h2 {
+        font-family: var(--font-family-f1);
+        font-style: normal;
+        font-weight: 400;
+        font-size: var(--font-size3);
+        line-height: 1.19em;
+    }
+    h3 {
+        font-family: var(--font-family-f1);
+        font-style: normal;
+        font-weight: 600;
+        font-size: var(--font-size0);
+        line-height: 1.187em;
+        
+        &.slot {
+            line-height: 1.6em;
+            font-weight: 400;
+        }
+    }
+    p, li {
+        font-family: var(--font-family-f1);
+        font-style: normal;
+        font-weight: 400;
+        font-size: var(--font-size-2);
+        line-height: 1.16em;
+        
+        &.slot-1 {
+            line-height: 1.66em;
+        }
+
+        &.slot-2 {
+            text-transform: uppercase;
+        }
+    }
+}

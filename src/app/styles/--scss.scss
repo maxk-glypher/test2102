@@ -1,0 +1,50 @@
+/*
+	(c) The Glyph Studio, 2023
+*/
+/* break points */
+/* To save your code dependences we used real break point keys. If you want to use the same names like in the design please rename it manualy in whole app ;) */
+$break-0-end: 0px;
+$break-0-start: 9999px;
+$retina: '(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)';
+/* colors */
+$color-A0: rgba(28, 27, 27, 1);
+$color-A0-1: rgba(18, 17, 17, 1);
+$color-A0-2: rgba(12, 12, 12, 1);
+$color-A1: rgba(98, 98, 98, 1);
+$color-A2: rgba(132, 132, 132, 1);
+$color-A3: rgba(173, 173, 173, 1);
+$color-A1-tint-a: rgba(28, 27, 27, 0.69);
+$color-A2-tint-a: rgba(28, 27, 27, 0.54);
+$color-A3-tint-a: rgba(28, 27, 27, 0.36);
+
+/* grid */
+$baseline: 24px;
+$subline: 6px;
+$gutter: 24px;
+$column1: 78px;
+$column2: 180px;
+$column3: 282px;
+$column4: 384px;
+$column5: 486px;
+$column6: 588px;
+$column7: 690px;
+$column8: 792px;
+$column9: 894px;
+$column10: 996px;
+$column11: 1098px;
+$column12: 1200px;
+
+/* fonts */
+$font-size-1: 14px;
+$font-size-2: 12px;
+$font-size-3: 8px;
+$font-size0: 16px;
+$font-size1: 19px;
+$font-size2: 21px;
+$font-size3: 26px;
+$font-size4: 35px;
+$font-size5: 51px;
+$font-size6: 86px;
+$font-size7: 107px;
+$font-size8: 116px;
+$font-size9: 120px;

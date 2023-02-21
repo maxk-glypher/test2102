@@ -1,0 +1,19 @@
+<ul>
+    <p class="slot-2">Pick one of the player</p>
+    <app-pr-player-card 
+        *ngFor="let player of players; let i = index"
+        [player]="player"
+        [isActive]="player.isActive"
+        (click)="toggleActive(i)"
+    ></app-pr-player-card>
+</ul>
+
+<div class="sheet-wrapper">
+    <h1>
+        NBA <br>
+        players board
+    </h1>
+    <app-pr-sheet
+    [players]="activePlayers"
+    ></app-pr-sheet>
+</div>
